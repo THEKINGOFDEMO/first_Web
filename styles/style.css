@@ -39,3 +39,16 @@ html {
     display: block;
     margin: 0 auto;
   }
+  @media only screen and (max-width: 600px) {
+    /* 在设备宽度小于等于 600px 时应用以下样式 */
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
